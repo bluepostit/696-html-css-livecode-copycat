@@ -1,0 +1,9 @@
+.btn-action {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 4px;
+  margin-left: 4px;
+  display: inline-block;
+}

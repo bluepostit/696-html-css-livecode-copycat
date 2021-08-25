@@ -1,0 +1,38 @@
+.card-dribbble {
+  width: 220px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 8px;
+}
+
+.card-white-img {
+  background-image: url('https://source.unsplash.com/random');
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-dribbble .list-inline {
+  color: #b0b0b0;
+  text-align: end;
+}
+
+.card-dribbble .avatar {
+  margin-right: 8px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.card-dribbble .btn-action {
+  opacity: 0;
+  transition: .3s;
+}
+
+.card-dribbble:hover .btn-action {
+  opacity: 1;
+}
